@@ -132,7 +132,7 @@ input::-webkit-input-placeholder {
   top: 25px;
 }
 .podcontent {
-  display: flex`;
+  display: flex;
 }
 }
 .podcontent-r:hover a {
