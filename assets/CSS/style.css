@@ -66,7 +66,6 @@ input::-webkit-input-placeholder {
 }
 
 .main {
-  height: 100%;
   width: 90%;
   margin: 0 auto;
 
@@ -105,20 +104,16 @@ input::-webkit-input-placeholder {
 .content-1,
 .content-2,
 .content-3 {
-  float: left;
   text-align: left;
   margin: ;
 }
 .content-1 a img {
-  float: left;
   margin: 10px;
 }
 .content-3 a img {
-  float: left;
   margin: 10px;
 }
 .content-2 a img {
-  float: left;
   margin: 10px;
 }
 .top-results {
