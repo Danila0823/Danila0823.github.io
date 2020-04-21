@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  ont-family: "Lato", sans-serif;
+}
+body {
+  overflow: auto;
+}
+input {
+  width: 100%;
+  height: 30px;
+  font-size: 18px;
+  border: none;
+
+  outline: none;
+}
+
+span {
+  color: #cccfd3;
+  font-size: 14px;
+}
+h4 {
+  color: #40ad5d;
+  font-size: 14px;
+}
+h3 {
+  font-size: 18px;
+}
+p {
+  font-size: 14px;
+  color: #75797f;
+}
+input::-webkit-input-placeholder {
+  color: #cacaca;
+}
+
+.bg {
+  background: rgb(66, 133, 244);
+  background: linear-gradient(
+    45deg,
+    rgba(66, 133, 244, 1) 50%,
+    rgba(49, 167, 80, 1) 100%
+  );
+  padding: 5% 0 5% 0;
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 0;
+}
+.poisk {
+  width: 90%;
+  height: 130px;
+  margin: auto;
+  margin-bottom: 2px;
+  background-color: white;
+  box-shadow: 10px 10px 60px rgba(0, 0, 0, 0.25),
+    10px 10px 60px rgba(0, 0, 0, 0.22);
+}
+
+.main {
+  height: 100%;
+  width: 90%;
+  margin: 0 auto;
+
+  background-color: white;
+}
+.search {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  height: 110px;
+}
+.elements-search-1 {
+  flex-basis: 15%;
+}
+.elements-search-1 a img {
+  display: block;
+  margin-left: 95px;
+}
+
+.elements-search-2 {
+  flex-basis: 75%;
+}
+.elements-search-3 {
+  flex-basis: 10%;
+}
+.elements-search-3 img {
+  width: 22px;
+  height: 37px;
+}
+.results {
+  display: flex;
+
+  margin: 0 80px;
+}
+.content-1,
+.content-2,
+.content-3 {
+  float: left;
+  text-align: left;
+  margin: ;
+}
+.content-1 a img {
+  float: left;
+  margin: 10px;
+}
+.content-3 a img {
+  float: left;
+  margin: 10px;
+}
+.content-2 a img {
+  float: left;
+  margin: 10px;
+}
+.top-results {
+  width: 2300px;
+  margin-left: 100px;
+  position: relative;
+}
+.top-results img {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+.podcontent {
+  display: flex`;
+}
+}
+.podcontent-r:hover a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4285f4;
+}
+.podcontent-r a {
+  text-decoration: none;
+  font-size: 16px;
+  color: #4285f4;
+}
+.podcontent-l {
+  font-size: 16px;
+  text-decoration: none;
+  color: #b5b9bf;
+}
+.podcontent-l:hover a {
+  text-decoration: none;
+  color: #b5b9bf;
+}
+.podcontent-l a {
+  text-decoration: none;
+  color: #b5b9bf;
+}
